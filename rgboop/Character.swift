@@ -12,7 +12,7 @@ class Character {
     
     private var _name : String
     private var _hp : Int!
-    private var _attackPower : Int!
+    private var _attackPower = 0
     private var _catchPhrase = "I will hunt you down"
     
     var name : String {
@@ -40,15 +40,30 @@ class Character {
             _attackPower = newAttackPower
         }
     }
+    var catchPhrase : String {
+        get{
+            return _catchPhrase
+        }
+        set(newCatchPhrase){
+            _catchPhrase = newCatchPhrase
+        }
+    }
+    
     
     init (name : String)
     {
         _name = name
     }
+    init (name : String, hp : Int, catchPhrase : String, attackPower : Int){
+        _name = name
+        _hp = hp
+        _attackPower = attackPower
+        _catchPhrase = catchPhrase
+        
+    }
     
-    func attemptAttack(attackPower : Int) -> Int {
+    func attemptAttack(attackPower : Int) {
         _hp = _hp - attackPower
-        return _hp
     }
     
     
