@@ -58,10 +58,7 @@ class ViewController: UIViewController {
         enemyHPLabel.text = "\(newEnemyHP) HP"
         
     }
-    func createNewEnemy(){
-        
-        
-    }
+  
 
 }
 
