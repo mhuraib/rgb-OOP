@@ -11,12 +11,13 @@ import Foundation
 class Joker : Character{
     
     convenience init(){
-        self.init(name : "The JoKoR", hp : 120, catchPhrase : "You Will LAPUGH tO DeAtH ... Ha Ha HA", attackPower : 25)
+        
+        self.init(name : "The JoKoR", hp : 120, catchPhrase : "The Joker : You Will LAuGh tO DeAtH ... Ha Ha HA", attackPower : 25)
     }
     
     
     override func attemptAttack(attackPower: Int) {
-        if(attackPower<20)
+        if(attackPower<10)
         {
             super.hp += 5
             

@@ -148,6 +148,7 @@
                     <connections>
                         <outlet property="attackButton" destination="GFF-Zu-d8t" id="oqO-Ui-1K7"/>
                         <outlet property="attackbgImage" destination="0zF-Bn-QmN" id="E58-ON-LcK"/>
+                        <outlet property="catchPhraseLabel" destination="scS-5T-xeP" id="l47-01-kby"/>
                         <outlet property="chestButton" destination="6hS-2I-Q8Y" id="ZZS-ix-d5l"/>
                         <outlet property="enemyHPLabel" destination="Lal-dL-G5m" id="oQK-U5-z0d"/>
                         <outlet property="enemyImage" destination="wXH-UQ-KWp" id="Chu-fC-D5q"/>

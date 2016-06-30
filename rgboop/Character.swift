@@ -10,7 +10,7 @@ import Foundation
 
 class Character {
     
-    private var _name : String
+    private var _name : String!
     private var _hp : Int!
     private var _attackPower = 0
     private var _catchPhrase = "I will hunt you down"
@@ -49,7 +49,7 @@ class Character {
         }
     }
     
-    
+  
     init (name : String)
     {
         _name = name

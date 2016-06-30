@@ -11,7 +11,7 @@ import Foundation
 class Fatjoe : Character{
     
     convenience init(){
-        self.init(name : "Fat Joe", hp : 300, catchPhrase : "I'll set on you to death", attackPower : 50)
+        self.init(name : "Fat Joe", hp : 300, catchPhrase : "Fat Joe: I'll set on you to death", attackPower : 50)
     }
     
 }
